@@ -10,6 +10,7 @@ public class palindrome {
             rev=(rev*10)+r;
             n/=10;
         }
+        System.out.println("abcd");
         if (m==rev) System.out.println("given number is palindrome");
         else System.out.println("not a palindrome number");
     }
