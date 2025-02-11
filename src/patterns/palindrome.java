@@ -11,6 +11,7 @@ public class palindrome {
             n/=10;
         }
         System.out.println("abcd");
+        System.out.println("second change");
         if (m==rev) System.out.println("given number is palindrome");
         else System.out.println("not a palindrome number");
     }
