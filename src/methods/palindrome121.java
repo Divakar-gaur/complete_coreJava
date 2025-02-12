@@ -1,9 +1,6 @@
 package methods;
 import java.util.Scanner;
 
-import static methods.all_prime.lowest;
-import static methods.all_prime.range;
-
 class palindrome121 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -75,7 +72,8 @@ class palindrome121 {
             }
         }
     }
-    public static void highest(int st,int end){
+
+    public static void highest(int st, int end) {
         for (int i = end; i >= st; i--) {
             if (isPalindrome(i)) {
                 System.out.println(i);
@@ -83,6 +81,7 @@ class palindrome121 {
             }
         }
     }
+
     public static void lowest(int st, int end) {
         for (int i = st; i <= end; i++) {
             if (isPalindrome(i)) {
