@@ -1,5 +1,6 @@
 package Strings;
 
+//    INPUT :- java is easy          OUTPUT :- easy is java
 public class ReverseSentence {
     public static void main(String[] args) {
         System.out.println(rev("java is easy"));

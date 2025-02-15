@@ -17,8 +17,8 @@ public class example {
         //A a=new A();  CTE:- WE CAN'T CREATE OBJECT FOR ABSTRACT CLASS
         A a;
         a=new B();
-        a.m1();
+        a.m1(); // M1()-B
         a=new C();
-        a.m1();
+        a.m1(); // M1()-C
     }
 }

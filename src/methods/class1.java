@@ -76,6 +76,7 @@ class class1{
         cs.m1();
     }
     public static void m3(){
+
         System.out.println("this is m3 method");
     }
 }
