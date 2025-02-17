@@ -2,7 +2,7 @@ package Strings;
              //   INPUT :- JAVA    IS   EASY.               OUTPUT :- JAVA IS EASY.
 public class RemoveExtraSpaces {
     public static void main(String[] args) {
-        String s="JAVA    IS   EASY";
+        String s="JAVA    IS   EASY ";
         String res="";
         char [] ch=s.toCharArray();
         for (int i=0;i<s.length();i++){
@@ -12,7 +12,7 @@ public class RemoveExtraSpaces {
                 res+=ch[i];
                 i++;
             }
-            res+=ch[i];
+            res+=ch[i];   
         }
         System.out.println(res);
     }

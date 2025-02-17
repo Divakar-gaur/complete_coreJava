@@ -2,10 +2,10 @@ package Strings;
 
 public class PalindromeString {
     public static void main(String[] args) {
-        String s="Malayalam";
+        String s="malayalam";
 
-        if (isPalindrome(s)) System.out.println("enter string is palindrome");
-        else System.out.println("enter string is not a palindrome");
+        if (isPalindrome(s)) System.out.println("Given string is palindrome");
+        else System.out.println("Given string is not a palindrome");
 
     }
 
