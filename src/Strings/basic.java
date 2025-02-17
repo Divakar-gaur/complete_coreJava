@@ -5,6 +5,6 @@ public class basic {
         String s="JSpiders";
         System.out.println("length is "+s.length());
         System.out.println("character at third place is "+s.charAt(2));
-        //System.out.println(s.charAt(10)); //StringIndexOutOfBoundsException
+        //System.out.println(s.charAt(10));   CTE :- StringIndexOutOfBoundsException
     }
 }
