@@ -1,6 +1,7 @@
 package Strings;
 
 //    INPUT :- JAVA IS VERY VERY EASY EASY JAVA.          OUTPUT :- JAVA-2, IS-1, VERY-2, EASY-2
+
 public class CountingWordOccurence {
     public static void main(String[] args) {
         String s="JAVA IS VERY VERY EASY EASY JAVA";
