@@ -4,29 +4,31 @@ package Strings;
 
 public class UniqueCharacters {
     public static void main(String[] args) {
-        String s = "Ramana Kumar";
-        String res = "";
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            if (ch == ' ') {
-                res += " ";
+        String s= "Ramana kumar";
+        String res="";
+        for (int i=0;i<s.length();i++){
+            char ch =s.charAt(i);
+            if (ch==' '){
+                res +=" ";
                 continue;
             }
-
-            boolean isDuplicate = false;
-            for (int j = 0; j < s.length(); j++) {
-                if (i != j && s.charAt(i) == s.charAt(j)) {
-                    isDuplicate = true;
+            boolean isduplicate = false;
+            for (int j= 0;j<s.length();j++){
+                if (i!=j && s.charAt(i)==s.charAt(j)){
+                    isduplicate=true;
                     break;
                 }
             }
-            if (!isDuplicate) {
+            if(!isduplicate)
                 res += ch;
-            }
         }
         System.out.println(res);
     }
 }
+
+
+
+
 
 
 

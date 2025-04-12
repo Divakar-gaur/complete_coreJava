@@ -1,4 +1,4 @@
-package methods;
+package overloading_overriding_hiding;
 // CREATING DIFFERENT METHODS WITH SAME NAME AND DIFFERENT ARGUMENTS IS CALLED METHOD OVERLOADING.
 public class method_overloading {
     public static void main(String[] args) {

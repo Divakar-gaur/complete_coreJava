@@ -1,4 +1,4 @@
-package methods;
+package overloading_overriding_hiding;
 
 public class overloading_main {
     public static void main(String[] args) {
