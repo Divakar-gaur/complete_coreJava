@@ -1,6 +1,6 @@
 package basic;
 
-public class hgvb {
+public class NumberToWord {
     public static void main(String[] args) {
         int n = 875676342;
 
