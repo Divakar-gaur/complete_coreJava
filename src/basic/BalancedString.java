@@ -7,7 +7,6 @@ public class BalancedString {
         String s = "{[()]}";
         System.out.println(isBalanced(s));
     }
-
     public static boolean isBalanced(String s) {
         Stack<Character> s1 = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
@@ -25,11 +24,9 @@ public class BalancedString {
         }
         return s1.isEmpty();
     }
-
     public static boolean pair(char ch1,char ch){
         if((ch=='[' && ch1==']')||(ch=='{' && ch1=='}')||(ch=='(' && ch1==')'))
             return true;
         else return false;
     }
-
 }

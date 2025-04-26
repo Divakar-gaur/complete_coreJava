@@ -2,8 +2,8 @@ package basic;
 
 public class NumberToWord {
     public static void main(String[] args) {
-        int n = 875676342;
 
+        int n = 875676342;
         pw(n / 10000000, " crores ");
         pw((n / 100000) % 100, " lakhs ");
         pw((n / 1000) % 100, " thousand ");
@@ -17,9 +17,9 @@ public class NumberToWord {
 
         String[] two = {"", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninty"};
 
-        if (num <= 19) {
+        if (num <= 19)
             System.out.print(one[num]);
-        } else System.out.print(two[num / 10] + " " + one[num % 10]);
+        else System.out.print(two[num / 10] + " " + one[num % 10]);
 
         if (num != 0) System.out.print(s);
     }
