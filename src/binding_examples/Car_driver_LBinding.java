@@ -43,7 +43,6 @@ class driver{
         c.stop();
     }
 }
-
 public class Car_driver_LBinding {
     public static void main(String[] args) {
         driver.drive(new bmw());
